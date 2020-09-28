@@ -1,0 +1,59 @@
+{% extends 'index.html' %}
+{% block title %}Nosotros{% endblock %}
+{% load static %}
+
+{% block body %}
+<!-- Institucion
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing" style="margin-top: 100px;">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <image src="{% static 'Valores.jpg' %}"width="140" height="140" style="border-radius: 50%;" />
+        <h2 style="color: #002d06;">Valores</h2>
+        <p style="color: #422403;">Amabilidad, Transparencia, Creatividad, Innovación, Recursividad, Asociatividad, Apertura al cambio</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <image src="{% static 'Mision.jpg' %}"width="140" height="140" style="border-radius: 50%;" />
+        <h2 style="color: #002d06;">Misión</h2>
+        <p style="color: #422403;">Cambiar el Agro colombiano, ampliar y potenciar la visión del productor con el fin de mejorar la satisfacción al momento de entregar su producción al mercado nacional y/o internacional.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <image src="{% static 'Objetivos.jpg' %}"width="140" height="140" style="border-radius: 50%;" />
+        <h2 style="color: #002d06;">Objetivos</h2>
+        <p style="color: #002d06;">El objetivo principal de Aguacatalia SAS es llegar cada día a más cultivadores de diferentes productos, apoyarlos en su proceso productivo y asegurarles la venta de su fruta a precios muy justos con el fin de crear día a día fidelización y que decidan continuar comercializando con nosotros cada una de sus cosechas.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+<!-- LOGOS Certificados
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing" style="margin-top: 100px;">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <image src="{% static 'GLOBAL Y GRASP.png' %}"width="180" height="140" />
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <image src="{% static 'GRASP.jpg' %}"width="180" height="140"/>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <image src="{% static 'ICA.jpg' %}"width="200" height="140"/>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+	<div class="col-12 col-md" style="margin-top: 100px;">
+      <h5>Links de Interes</h5>
+      <ul class="list-unstyled text-small">
+        <li><a href="https://www.fruitrop.com/en/Produits/avocado" target="_blank" rel="noopener noreferrer">https://www.fruitrop.com/en/Produits/avocado</a></li>
+        <li><a href="https://www.freshplaza.es/" target="_blank" rel="noopener noreferrer">https://www.freshplaza.es/</a></li>
+        <li><a href="https://rnm.franceagrimer.fr/prix?SAINOMPRODUIT" target="_blank" rel="noopener noreferrer">https://rnm.franceagrimer.fr/prix?SAINOMPRODUIT</a></li></li>
+        <li><a href="https://www.cropscience.bayer.co/Centro-de-Noticias/Noticias/2018/09/Cinco-claves-Aguacate.aspx" target="_blank" rel="noopener noreferrer">https://www.cropscience.bayer.co/Centro-de-Noticias/Noticias/2018/09/Cinco-claves-Aguacate.aspx</a></li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'index.html' %}
+{% block title %}Aguacatalia S.A.S.{% endblock %}
+{% load static %}
+
+{% block body %}
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center" style="background-color: #dace53;">
+<img src="{% static 'PORTADAcortada.jpeg' %}" width="100%" alt="logo">
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3" style="background-color: #002d06;">
+  <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" >
+    <image src="{% static 'IZQUIERDA.jpeg' %}"width="80%" height="80%"/>
+  </div>
+  <div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="background-color: #002d06;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/elUDe57feCc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <image src="{% static 'Linea Mercado Intenacional.jpeg' %}"width="140" height="140" style="border-radius: 50%;"/>
+        <h2 style="color: #002d06;">Mercado Internacional</h2>
+        <p style="color: #002d06;">Trabajamos con 3 modelos de negociación para la exportación de Aguacate Hass y limón Tahití.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <image src="{% static 'mercadoNacional.JPG' %}"width="140" height="140" style="border-radius: 50%;" />
+        <h2 style="color: #002d06;">Mercado Nacional</h2>
+        <p style="color: #002d06;">Directo de finca a plazas, Supermercados, Minimercados y centros de producción.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <image src="{% static 'variedad.JPG' %}"width="140" height="140" style="border-radius: 50%;" />
+        <h2 style="color: #002d06;">Fruver Hogar</h2>
+        <p style="color: #002d06;">Contamos con gran variedad de frutas y verduras y lo llevamos hasta tu casa.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div>
+{% endblock %}
