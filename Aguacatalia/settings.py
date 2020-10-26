@@ -25,7 +25,7 @@ SECRET_KEY = 'k6e@*8tdhsgyh6q8b-00(5noiy3*2o=(v+dkiye$(kedfg=2dw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'shrouded-reaches-34451.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'shrouded-reaches-34451.herokuapp.com', 'www.aguacataliasas.com']
 
 
 # Application definition
